@@ -1,3 +1,9 @@
+# This script analyzes data from the March 31st 2020 tidytuesday dataset. I look at the trend
+# in types of beer production. 
+
+# Major hurdles combining two types of beer production into a single type, calculating
+# proportional production by type, and adjusting legend and x label text size.
+
 # Load Libraries
 library(tidytuesdayR)
 library(tidyverse)
