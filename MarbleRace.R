@@ -26,7 +26,7 @@ TrackSpeed
 
 # Plot 
 PlotTrackSpeed<-ggplot(TrackSpeed,aes(x=reorder(site,track_speed),y=track_speed,fill=site,color=site))+
-  geom_col(size=0.8)+coord_flip()+  xlab("Course")+ylab("Track Speed m/s")+theme_dark()+
+  geom_col(size=0.8)+coord_flip()+  xlab("Course")+ylab("Track Speed (m/s)")+theme_dark()+
   scale_fill_manual(values=c("olivedrab","black","midnightblue","darkgreen","orange","magenta","maroon","slategray3"))+
   scale_color_manual(values=c("burlywood4","yellow","skyblue2","royalblue4","black","deeppink2","yellow2","white"))+
   theme(legend.position = "none",axis.title.y=element_blank(),axis.text.y=element_blank(),
