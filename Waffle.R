@@ -43,5 +43,3 @@ extrafont::fonttable() %>%
   dplyr::filter(grepl("Awesom", FamilyName)) %>% 
   select(FamilyName, FontName, fontfile)
 
-# code just to test github linkage
-# 
